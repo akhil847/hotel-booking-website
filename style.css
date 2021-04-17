@@ -1,0 +1,452 @@
+*
+
+{
+    margin: 0;
+    padding: 0;
+}
+/*-----Navigation------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 110px;
+    padding-left: 50px;
+}
+.navbadr-nav li
+{
+    padding: 0 10px;
+}
+.navbadr-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: goldenrod!important;    
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: rgb(71, 70, 70)!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*-----------------------slider------------------*/
+#slider
+{
+    width: 100%;
+}
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5
+{
+    color:rgb(238, 234, 227);
+    font-size: 40px;
+    text-shadow: 3px 3px #000000;
+}
+/*--------------------------About---------------------------------*/
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(70, 66, 66);
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #eba843;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.skills-bar p
+{
+margin-bottom: 6px;
+font-weight: 600;
+}
+.progress-bar
+{
+    background-color: #eba843!important;
+    border-radius: 3px;
+    display: inline-block;
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+/*-------------------------prices -------------------*/
+#price
+{
+    padding: 40px 0;
+    background: #fcfcfc;
+}
+.Single-cost
+{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+.Single-cost:hover
+{
+    box-shadow: 0 2px 20px #333;
+}
+.price-day
+{
+    background-color: #eba843;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+.price-day h2
+{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.price-day p
+{
+    font-size: 25px;
+    color: rgb(235, 235, 235);
+    font-weight: bold;
+    line-height: 30px;
+}
+#price span 
+{
+    font-size: 15px;
+}
+.price-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+.price-content ul li
+{
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+ul li:last-child
+{
+    border: none;
+}
+.fa-male
+{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.fa-wifi
+{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.fa-automobile
+{
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.fa-cutlery
+{
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.fa-heartbeat
+{
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.fa-briefcase
+{
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.price-button
+{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+.buy-btn
+{
+    background-color:#eba843 ;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+.buy-btn:hover
+{
+    border-color: 1px solid #fff;
+    background-color: #d08516;
+}
+a
+{
+    text-decoration: none!important;
+    color: #fff!important;
+}
+.price-content2
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+.price-content2 ul li
+{
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+.price-content2 .fa-automobile
+{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.price-content2 .fa-cutlery
+{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.price-content3
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+.price-content3 ul li
+{
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+.price-content3 .fa-automobile
+{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.price-content3 .fa-cutlery
+{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.price-content3 .fa-heartbeat
+{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.price-content3 .fa-briefcase
+{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+/*------------Services----------*/
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/services.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1
+{
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+    padding-bottom: 10px;
+}
+#services h1::after
+{
+    content: '';
+    background: rgb(236, 236, 236);
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid rgb(255, 254, 252);
+    border-radius: 50%;
+}
+#services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: rgb(245, 244, 244);
+}
+.services .col-md-3:hover{
+    background: #db9c3ed5;
+    cursor: pointer;
+    transition: 0.7s;
+}
+/*-----accomodation-----*/
+#accomodation
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+h1
+{
+    text-align: center;
+    color: #555!important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: ' ';
+    background: goldenrod;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.room-types
+{
+    margin-top: 25px;
+}
+.room-types .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.room-types .img-box img
+{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+.room-types .img-box img:hover
+{
+    box-shadow: 0 2px 20px #333;
+    cursor: pointer;
+
+}
+.room-types h2
+{
+    color:rgb(44, 43, 43);
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 1px 1px #868181a9;
+}
+/* -----promo--------*/
+#promo
+{
+    background-image: linear-gradient(rgba(57, 61, 40, 0.7),rgba(57, 61, 40, 0.7)),url(images/promopic.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+
+/*-------------------------Get in touch------------*/
+#contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form
+{
+    padding: 15px;
+}
+.form-control
+{
+    border-radius: 0!important;
+    border: none!important;
+}
+::placeholder
+{
+    color: rgb(121, 121, 121)!important;
+}
+.follow
+{
+    background: #fff;
+}
+.contact-info .fa 
+{
+    margin: 10px;
+    color: #d08516;
+    font-weight: bold;
+}
+/*---------------Footer-------------*/
+#footer
+{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
+.fa-heart-o
+{
+    margin: 3px;
+    color: red;
+}
+
+
+
+
+
